@@ -1,0 +1,40 @@
+#container
+  width: 90%
+  padding: 20px
+  margin: auto
+  display: flex
+  flex-wrap: wrap
+  font-family: $openSans
+  .card
+    width: 30%
+    margin: 20px auto
+    margin-left: 0
+    background-color: white
+    box-shadow: $shadow
+    padding: 20px 10px
+    display: inline-block
+    border-radius: 3px
+    position: relative
+    overflow: hidden
+    section
+      padding: 5px
+      label, div
+        display: inline-block
+        padding: 0 5px
+    button
+      display: inline-block
+      padding: 5px 8px
+      background-color: transparent
+      color: #000
+      border: 1px solid $mainColor
+      border-radius: 3px
+      margin: 15px 5% 15px 10px
+      font-size: 16px
+      font-weight: 400
+      font-family: $roboto
+      letter-spacing: 1px
+      cursor: pointer
+      transition: .2s ease
+      &:hover
+        background-color: $mainColor
+        color: white
